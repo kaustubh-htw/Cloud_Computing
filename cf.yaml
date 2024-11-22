@@ -2,9 +2,9 @@ AWSTemplateFormatVersion: '2010-09-09'
 Description: 'Template to Create EC2 Instance from CI/CD '
 
 Resources:
-  MyEC2Instance:
+  HTWInstance:
     Type: 'AWS::EC2::Instance'
     Properties:
       InstanceType: t2.micro  # Specify the EC2 instance type
       ImageId: ami-0c915740c6d202025  # Replace with the correct AMI ID for your region
-      
+     
