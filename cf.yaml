@@ -5,6 +5,6 @@ Resources:
   HTWInstance:
     Type: 'AWS::EC2::Instance'
     Properties:
-      InstanceType: t2.micro  # Specify the EC2 instance type
-      ImageId: ami-0c915740c6d202025  # Replace with the correct AMI ID for your region
+      InstanceType: 't2.micro'  # Specify the EC2 instance type
+      ImageId: 'ami-0c915740c6d202025'  # Replace with the correct AMI ID for your region
      
