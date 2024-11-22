@@ -6,5 +6,5 @@ Resources:
     Type: "AWS::EC2::Instance"
     Properties:
       InstanceType: "t2.micro"  # Specify the EC2 instance type
-      ImageId: "ami-039a0c8410a498a32"  # Replace with the correct AMI ID for your region
+       # Replace with the correct AMI ID for your region
      
