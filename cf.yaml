@@ -7,7 +7,4 @@ Resources:
     Properties:
       InstanceType: t2.micro  # Specify the EC2 instance type
       ImageId: ami-0c915740c6d202025  # Replace with the correct AMI ID for your region
-      KeyName: MyKeyPair  # Replace with your EC2 KeyPair name
-      Tags:
-        - Key: Kaustubh
-          Value: MyEC2Instance
+      
